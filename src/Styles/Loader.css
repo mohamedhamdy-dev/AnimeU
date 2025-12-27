@@ -1,7 +1,4 @@
-/* HTML: <div class="loader"></div> */
-
 .loader-box {
-  transform: translateX(-25%);
   grid-column: 1 / span auto-fit;
   justify-self: center;
   align-self: center;
@@ -11,7 +8,8 @@
   width: 100px;
   aspect-ratio: 1;
   border-radius: 50%;
-  border: 8px solid rgba(0, 178, 248, 0.719);
+
+  border: 8px solid #007bff;
   animation: l20-1 0.8s infinite linear alternate, l20-2 1.6s infinite linear;
 }
 @keyframes l20-1 {

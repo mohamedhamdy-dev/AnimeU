@@ -12,7 +12,7 @@ export default function AnimeContainer() {
     <>
       <ControlBar />
 
-      <div className="content-box glass ">
+      <div className="content-box glass">
         {isLoading && <Loader />}
 
         {!isLoading && data?.data?.length === 0 ? (

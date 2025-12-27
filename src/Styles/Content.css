@@ -99,6 +99,7 @@
   margin-top: 0.4rem;
   padding: 3.2rem 1.2rem;
   color: white;
+  min-height: 30rem;
 }
 
 .card-content {
