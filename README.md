@@ -1,7 +1,6 @@
 # Animeu
 
-Animeu is a frontend web application built with React, focused on browsing and exploring content through a clean, responsive, and data-driven interface.  
-The project emphasizes efficient data fetching, smooth user experience, and scalable frontend architecture.
+AnimeU is a modern web app that integrates the MyAnimeList API to display detailed anime information through a clean, custom-designed interface built by me.
 
 ---
 
