@@ -2,11 +2,13 @@ import { useNavigate } from "react-router-dom";
 
 export default function Card({ animeData, onChoice }) {
   const navigate = useNavigate();
+
   function handleCardClick() {
     onChoice(animeData);
     navigate("/AnimeInfo");
     window.scroll({ top: 0, behavior: "smooth" });
   }
+
   return (
     <article
       to="AnimeInfo"
